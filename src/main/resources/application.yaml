@@ -41,5 +41,21 @@ spring:
     admin:
       client:
         url: http://localhost:9000/
-        username: user
-        password: 8ae0841c-b7d2-4409-a37c-64b7a3f33777
+        username: ankur
+        password: ankur
+
+
+
+
+#Below configuration is not working
+#Spring client security configruation
+#spring:
+#    boot:
+#      admin:
+#        client:
+#          instance:
+#            metadata:
+#              user:
+#                name: kakabilla
+#                password: kakabilla
+
