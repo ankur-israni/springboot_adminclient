@@ -35,8 +35,11 @@ management:
       show-details: "ALWAYS"
 
 #Spring boot Admin server
+#To connect to spring boot admin server since spring boot admin server has spring security enabled.
 spring:
   boot:
     admin:
       client:
-       url: http://localhost:9000/
+        url: http://localhost:9000/
+        username: user
+        password: 8ae0841c-b7d2-4409-a37c-64b7a3f33777
